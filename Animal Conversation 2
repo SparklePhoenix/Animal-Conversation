@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String A;
+        String B;
+        String C;
+        String D;
+        System.out.println("What is your favorite animal?");
+        A = sc.next();
+        System.out.println("What is your favorite color?");
+        B = sc.next();
+        System.out.println("What is your favorite place?");
+        C = sc.next();
+        System.out.println("What is the animal's favorite food?");
+        D = sc.next();
+        System.out.println("The animal " + A + " is the color " + B + " and lives in the " + C + " and eats " + D + ".");
+
+    }
+}
